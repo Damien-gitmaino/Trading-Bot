@@ -52,7 +52,7 @@ def calculate_delay_to_wait_between_trade():
 
 
 while wallet.get_balance() < 2000:
-    now_utc = datetime.utcnow().replace(tzinfo=pytz.utc)
+    now_utc = datetime.now(pytz.utc)
 
     if not is_market_open(now_utc):
         wait = seconds_until_next_market_open(now_utc)
