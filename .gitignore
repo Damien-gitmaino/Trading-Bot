@@ -8,3 +8,4 @@
 # Ignore the keys file
 /venv
 /.idea
+/__pycache__/
