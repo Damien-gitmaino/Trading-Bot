@@ -1,0 +1,9 @@
+/wallet.pkl
+# Ignore the wallet file
+/transactions.pkl
+# Ignore the transactions file
+/addresses.pkl
+# Ignore the addresses file
+/keys.pkl
+# Ignore the keys file
+/venv
