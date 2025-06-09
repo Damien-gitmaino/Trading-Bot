@@ -7,3 +7,4 @@
 /keys.pkl
 # Ignore the keys file
 /venv
+/.idea
